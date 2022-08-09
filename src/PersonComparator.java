@@ -16,7 +16,7 @@ public class PersonComparator implements Comparator<Person> {
         int wordСountO1 = o1.getSurname().split(" ").length;
         int wordСountO2 = o2.getSurname().split(" ").length;
         int value = 0;
-        if (!(wordСountO1 >= wordСount) & (wordСountO2 >= wordСount)) {
+        if (!(wordСountO1 >= wordСount & wordСountO2 >= wordСount)) {
             value = wordСountO2 - wordСountO1;
         } else {
             return o2.getAge() - o1.getAge();

@@ -10,7 +10,7 @@ public class Main {
         list.add(new Person("Person_4", "dd dd dd", 13));
 
 
-        list.sort(new PersonComparator(0));
+        list.sort(new PersonComparator(4));
         System.out.println(list);
     }
 }
